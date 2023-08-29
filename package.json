@@ -1,0 +1,38 @@
+{
+  "name": "saku-bot",
+  "version": "1.0.0",
+  "description": "Bot pour le server ScanR",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "forever": "forever -w index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skytowz",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@supabase/supabase-js": "^2.33.1",
+    "discord-api-types": "^0.37.5",
+    "discord.js": "^14.8.0",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "got": "^11.8.3",
+    "jsdom": "^21.1.1",
+    "superagent": "^8.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prettier": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skytowz/SakuBot.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Skytowz/SakuBot/issues"
+  },
+  "homepage": "https://github.com/Skytowz/SakuBot#readme"
+}
